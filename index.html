@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Pipe2py : A project to compile Yahoo! Pipes into Python" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Pipe2py</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ggaughan/pipe2py">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Pipe2py</h1>
+          <h2 id="project_tagline">A project to compile Yahoo! Pipes into Python</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/ggaughan/pipe2py/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/ggaughan/pipe2py/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Introduction</h3>
+
+<p>The pipe2py package can compile a Yahoo! Pipe into pure Python source code, or it can interpret the pipe on-the-fly. It supports embedded pipes too.</p>
+
+<p><img src="http://www.wordloosed.com/wp-content/uploads/2010/10/pipe.png" alt="Yahoo! Pipes Editor"></p>
+
+<pre><code>$ python compile.py -p UuvYtuMe3hGDsmRgPm7D0g
+
+$ python pipe_UuvYtuMe3hGDsmRgPm7D0g.py
+
+Name (default=Lancaster) Osborne
+{u'firstName': u'Mr George',
+...
+u'TotalAllowancesClaimedIncTravel': u'151015'}
+</code></pre>
+
+<h3>Google App Engine</h3>
+
+<p><a href="http://pipes-engine.appspot.com/">pipes-engine</a> uses pipe2py to run your Yahoo! Pipes on Google’s servers. It retrieves and stores Yahoo! Pipes definitions, compiles them to Python and then runs them when requested on Google's App Engine.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pipe2py maintained by <a href="https://github.com/ggaughan">ggaughan</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
