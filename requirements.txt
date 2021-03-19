@@ -1,4 +1,4 @@
-Jinja2==2.7.3
+Jinja2==2.11.3
 MarkupSafe==0.22
 html5lib==0.999
 lxml==3.3.5
