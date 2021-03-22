@@ -1,7 +1,7 @@
 Jinja2==2.7.3
 MarkupSafe==0.22
 html5lib==0.999
-lxml==3.3.5
+lxml==4.6.3
 mccabe==0.2.1
 six==1.7.3
 speedparser==0.2.0
